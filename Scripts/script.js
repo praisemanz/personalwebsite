@@ -36,8 +36,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
-    
 
+// Responsive Navbar
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navbar = document.querySelector(".navbar");
+
+    if (menuToggle && navbar) {
+        menuToggle.addEventListener("click", () => {
+            navbar.classList.toggle("active");
+        });
+    }
 
     /* ==============================
        2) REVEAL JOURNEY STEPS LOGIC

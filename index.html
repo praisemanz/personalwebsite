@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Praise Manzi</title>
-    <link rel="icon" type="image/x-icon" href="/Images/logo.png">
+    <title>Praise Manzi | Home</title>
+    <link rel="icon" type="image/x-icon" href="/Images/officiallogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -19,7 +19,11 @@
 <body>
     <header class="header">
         <a href="#" class="important"></a>
-        <img src="/Images/logo.png" alt="Praise Manzi" class="logo" />
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="/Images/logo.png" alt="Praise Manzi" class="logo" />
+        </div>
+        </a>
         <nav class="navbar">
 
             <a href="#home" class="active">Home</a>
@@ -32,6 +36,9 @@
             <a href="gallery.html">Gallery</a>
             <a href="https://praisemanzi.substack.com/" target="_blank">Substack</a>
         </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
     <section class="home" id="home">
         <a href="#abt" class="home-img-link">
@@ -45,18 +52,12 @@
                 </div>
             </div>
         </a>
-        <!-- Scroll right Button -->
-        <div class="scroll-down">
-            <a href="projects.html"><i class="bx bx-chevron-right"></i></a>
-        </div>
+
 
     </section>
 
     <section class="abt" id="abt">
-        <!-- Scroll up Button -->
-        <div class="scroll-down">
-            <a href="#home"><i class="bx bx-chevron-up"></i></a>
-        </div>
+
         <div class="home-content">
             <h1><span>Praise Manzi</span></h1>
             <h3 class="text-animation">is a <span></span></h3>
@@ -72,23 +73,24 @@
                     to AI-driven projects as a Software Developer. She serves as Vice President of the International
                     Students
                     Council and actively engages in multicultural initiatives on campus.
-                </p>
+                    <br><br>
+
             </div>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/praisemanzi/" target="_blank"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/praisemanz" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="https://mail.google.com/mail/u/praisemanzi@gmail.com/?view=cm&to=praisemanzi@gmail.com"
-                    target="_blank">
-                    <i class="bx bxl-gmail"></i>
-                </a>
-                <a href="https://www.instagram.com/__m_i.r.a.c.l.e__" target="_blank"><i
-                        class="bx bxl-instagram"></i></a>
-            </div>
+
         </div>
-        <!-- Scroll Down Button -->
-        <div class="scroll-down">
-            <a href="#contact"><i class="bx bx-chevron-down"></i></a>
+        <button type="submit" class="btn"
+            href="https://docs.google.com/document/d/18TzSHgjUb9qZRjWgQbKxOsuOGefJcF369mdrIAznIfI/edit?tab=t.0">
+            Resume</button>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/praisemanzi/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/praisemanz" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://mail.google.com/mail/u/praisemanzi@gmail.com/?view=cm&to=praisemanzi@gmail.com"
+                target="_blank">
+                <i class="bx bxl-gmail"></i>
+            </a>
+            <a href="https://www.instagram.com/__m_i.r.a.c.l.e__" target="_blank"><i class="bx bxl-instagram"></i></a>
         </div>
+
     </section>
 
 
@@ -115,14 +117,6 @@
                 <button type="submit" class="btn" id="sendMail">Submit</button>
             </div>
         </form>
-        <!-- Scroll left Button -->
-        <div class="scroll-down">
-            <a href="#abt"><i class="bx bx-chevron-left"></i></a>
-        </div>
-        <!-- Scroll right Button -->
-        <div class="scroll-down">
-            <a href="projects.html"><i class="bx bx-chevron-right"></i></a>
-        </div>
     </section>
 
     <footer>
