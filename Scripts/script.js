@@ -1,3 +1,18 @@
+import { Analytics } from '@vercel/analytics/next';
+
+export default function RootLayout({ children }) {
+    return (
+        <html lang="en">
+            <head>
+                <title>Next.js</title>
+            </head>
+            <body>
+                {children}
+                <Analytics />
+            </body>
+        </html>
+    );
+}
 document.addEventListener("DOMContentLoaded", () => {
 
     /* ==============================
@@ -37,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-// Responsive Navbar
+    // Responsive Navbar
     const menuToggle = document.querySelector(".menu-toggle");
     const navbar = document.querySelector(".navbar");
 
